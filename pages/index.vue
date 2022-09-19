@@ -5,7 +5,7 @@
     <Nav />
     <div class="container">
       <h3>Welcome to our restaurant</h3>
-      <a href="/restaurant">got to restaurant</a>
+      <a href="/restaurants">got to restaurant</a>
     </div>
   </div>
 </template>
