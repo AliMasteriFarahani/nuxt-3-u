@@ -1,11 +1,17 @@
 <template>
   <div class="container">
-    <h2>Page Not Found !</h2>
-    <NuxtLink to="/">Go Back</NuxtLink>
+    <NuxtLayout name="error">
+      <template #header>
+        <h2>Page Not Found !</h2>
+      </template>
+      <template #redirectEl>
+        <NuxtLink to="/">Go Back</NuxtLink>
+      </template>
+    </NuxtLayout>
   </div>
 </template>
 <style>
-.container{
+.container {
   text-align: center;
   margin-top: 5rem;
 }

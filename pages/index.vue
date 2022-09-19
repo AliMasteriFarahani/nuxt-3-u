@@ -2,7 +2,7 @@
 </script>
 <template>
   <div>
-    <Nav />
+    <!-- <Nav /> -->
     <div class="container">
       <h3>Welcome to our restaurant</h3>
       <a href="/restaurants">got to restaurant</a>

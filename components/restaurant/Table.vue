@@ -31,6 +31,7 @@ const restaurantOrganized = {
         />
       </div>
     </div>
+      <!-- <RestaurantAd/> -->
   </div>
 </template>
 
